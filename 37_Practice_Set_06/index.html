@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+       <meta charset="UTF-8">
+       <meta http-equiv="X-UA-Compatible" content="IE=edge">
+       <meta name="viewport" content="width=device-width, initial-scale=1.0">
+       <title>Document</title>
+       <script>
+              document.body.firstElementChild.style.color="red";
+              document.body.firstElementChild.firstElementChild.style.color="green";
+              document.body.firstElementChild.lastElementChild.style.color="green";
+              Array.from(document.getElementsByTagName("li")).foreach((element )=>{
+                     element.style.color="cyan";
+              });
+              
+
+       </script>
+</head>
+<body>
+       <nav>
+              <ul>
+                     <li>Home</li>
+                     <li>About US</li>
+                     <li>Privacy Policy</li>
+
+              </ul>
+       </nav>
+       <table>
+              <td>Hello</td>
+              <tr>1</tr>
+              <tr>2</tr>
+              <tr>3</tr>
+       </table>
+</body>
+</html>
